@@ -1,0 +1,20 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  padding: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
