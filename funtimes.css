@@ -1,6 +1,9 @@
-html {
+* {
   margin: 0;
   padding: 0;
+}
+
+html {
   font-family: monospace;
   box-sizing: border-box;
   display: flex;
@@ -12,9 +15,16 @@ html {
 
 body {
   background-color: #eee;
-  padding: 2em;
+  padding: 3em;
+  margin: 0;
+  box-shadow: 0.75em 0.75em 0 #555;
+}
+
+h1 {
+  margin-bottom: 0.5em;
 }
 
 p {
   font-size: 1.25em;
+  margin-top: 0.5em;
 }
